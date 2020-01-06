@@ -1,0 +1,119 @@
+@import "../../styles/theme.less";
+
+
+.sider-children{
+  .ant-menu-dark{
+    background-color: @nav-background;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    align-items: center;
+    background: #2D8CF0;
+    .brand{
+      display: inline-block;
+      background-image: url(../../assets/images/brand.jpg);
+      width: 85%;
+      height: 70%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      &.min-mode{
+        background-image: url(../../assets/images/brand1.jpg);
+        width: 70%;
+      }
+    }
+  }
+  .sider-mian{
+    overflow: auto;
+    &::-webkit-scrollbar{ 
+      width: 5px; 
+      height: 5px;
+    }
+    &::-webkit-scrollbar-thumb{
+      border-radius: 2.5px;
+      background: rgba(240,242,245,.2);
+    }
+    &::-webkit-scrollbar-track{
+      background-color: #252b39;
+      opacity: .3;
+    }
+    .ant-menu{
+      .icon{
+        margin-right: 10px;
+      }
+      .ant-menu-item{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 13px 20px!important;
+        font-size: 12px;
+        height: 50px;
+        line-height: 50px;
+        border-left: 4px solid transparent;
+        &:hover{ 
+          background-color: #17233D; 
+          border-left: 4px solid @blue;
+        }
+        &.ant-menu-item-selected{
+          background-color: #17233D;
+          color: @blue;
+        }
+      }
+      .ant-menu-submenu{
+        .ant-menu-item{
+          padding: 10px 45px!important;
+          height: 40px;
+          line-height: 40px;
+          &.ant-menu-item-selected{
+            background-color: @blue;
+            color: #fff;
+          }
+        }
+        .ant-menu-submenu-arrow{
+          display: none;
+        }
+        &.ant-menu-submenu-open{
+          background-color: #17233D;
+          .ant-menu-submenu-arrow{
+            display: inline-block;
+          }
+          .ant-menu-sub{
+            &.ant-menu-inline{
+              background-color: #17233D;
+              box-shadow: inherit;
+            }
+            .ant-menu-item{
+              &:hover{ 
+                background-color: @nav-background;
+                border-left: 4px solid @blue;
+              }
+            }
+          }
+        }
+        &.ant-menu-submenu-vertical{
+          .ant-menu-submenu-arrow{
+            display: none;
+          }
+        }
+        .ant-menu-submenu-title{
+          display: flex;
+          align-items: center;
+          margin: 0;
+          padding: 13px 20px!important;
+          font-size: 12px;
+          height: 50px;
+          line-height: 50px;
+          border-left: 4px solid transparent;
+          &:hover{ 
+            background-color: #17233D; 
+            border-left: 4px solid @blue;
+          }
+          
+        }
+      }
+    }
+  }
+}

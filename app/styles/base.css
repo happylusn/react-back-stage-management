@@ -1,0 +1,333 @@
+html,
+body {
+  background-color: transparent;
+  font-family: 'Helvetica Neue For Number,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif';
+  font-size: 12px;
+  color: #666;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased !important;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+textarea {
+  padding: 4px;
+}
+table tr td,
+table tr th {
+  text-align: center;
+  padding: 8px;
+  line-height: normal;
+}
+table tr td .ant-select {
+  width: 100%;
+}
+table tr td a {
+  padding: 0 4px;
+}
+h1,
+.h1 {
+  font-size: 18px;
+}
+h2,
+.h2 {
+  font-size: 18px;
+}
+h3,
+.h3 {
+  font-size: 14px;
+}
+h4,
+.h4 {
+  font-size: 14px;
+  color: #333;
+}
+h5,
+.h5 {
+  font-size: 12px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-weight: 600;
+}
+::selection {
+  background-color: rgba(46, 165, 204, 0.41);
+  color: inherit !important;
+}
+.left,
+.fl {
+  float: left;
+  text-align: left;
+}
+.right,
+.fr {
+  float: right;
+}
+.hide,
+.hide.ant-btn {
+  display: none !important;
+}
+.red,
+.error {
+  color: #ff0000 !important;
+}
+.info {
+  color: #4da9ec !important;
+}
+.gray {
+  color: #b2b2b2 !important;
+}
+.yellow {
+  color: #eca42b !important;
+}
+.green,
+.success {
+  color: #69b721 !important;
+}
+.orange {
+  color: #ee860b !important;
+}
+.highlight,
+.blue {
+  color: #2D8CF0 !important;
+}
+.fail {
+  color: #999 !important;
+}
+.transparent {
+  color: transparent;
+}
+a {
+  color: #4da9ec;
+}
+a:focus {
+  text-decoration: none;
+}
+ul li,
+dl dt {
+  list-style: none;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.input-base-width {
+  width: 240px !important;
+}
+.fullWidth {
+  width: 100% !important;
+}
+.center {
+  text-align: center !important;
+}
+.pointer {
+  cursor: pointer !important;
+}
+.move {
+  cursor: move !important;
+}
+.mrbase {
+  margin-right: 8px !important;
+}
+.mtbase {
+  margin-top: 8px !important;
+}
+.mbbase {
+  margin-bottom: 8px !important;
+}
+.mlbase {
+  margin-left: 8px !important;
+}
+.mrbig {
+  margin-right: 16px !important;
+}
+.mtbig {
+  margin-top: 16px !important;
+}
+.mbbig {
+  margin-bottom: 16px !important;
+}
+.mlbig {
+  margin-left: 16px !important;
+}
+.mrlg {
+  margin-right: 24px !important;
+}
+.mtlg {
+  margin-top: 24px !important;
+}
+.mblg {
+  margin-bottom: 24px !important;
+}
+.mllg {
+  margin-left: 24px !important;
+}
+.prbase {
+  padding-right: 8px !important;
+}
+.ptbase {
+  padding-top: 8px !important;
+}
+.pbbase {
+  padding-bottom: 8px !important;
+}
+.plbase {
+  padding-left: 8px !important;
+}
+.prbig {
+  padding-right: 16px !important;
+}
+.ptbig {
+  padding-top: 16px !important;
+}
+.pbbig {
+  padding-bottom: 16px !important;
+}
+.plbig {
+  padding-left: 16px !important;
+}
+.prlg {
+  padding-right: 24px !important;
+}
+.ptlg {
+  padding-top: 24px !important;
+}
+.pblg {
+  padding-bottom: 24px !important;
+}
+.pllg {
+  padding-left: 24px !important;
+}
+#nprogress .spinner {
+  display: none;
+}
+.qqbicon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  background-image: url(../assets/images/icon/menu/default.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.qqbicon.qqbicon-navcontrol {
+  background-image: url(../assets/images/navcontrol.png);
+}
+.qqbicon.qqbicon-userManage {
+  background-image: url(../assets/images/icon/menu/userManage.png);
+}
+.qqbicon.qqbicon-roleManage {
+  background-image: url(../assets/images/icon/menu/roleManage.png);
+}
+.qqbicon.qqbicon-moduleManage {
+  background-image: url(../assets/images/icon/menu/moduleManage.png);
+}
+.qqbicon.qqbicon-pgmb {
+  background-image: url(../assets/images/icon/menu/icon_pgmb.png);
+}
+.qqbicon.qqbicon-pgmx {
+  background-image: url(../assets/images/icon/menu/icon_pgmx.png);
+}
+.qqbicon.qqbicon-xtxg {
+  background-image: url(../assets/images/icon/menu/icon_xtxg.png);
+}
+.qqbicon.qqbicon-duty {
+  background-image: url(../assets/images/icon/menu/icon_duty.png);
+}
+.qqbicon.qqbicon-statistics {
+  background-image: url(../assets/images/icon/menu/icon_statistics.png);
+}
+.ant-menu .qqbicon {
+  margin: 0 15px 5px 3px;
+}
+.wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+}
+.wrapper .container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  background: #f5f7f9;
+}
+.wrapper .container .sider-container {
+  width: 180px;
+  min-width: 180px;
+  max-width: 180px;
+  flex: 0 0 180px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  background: #42485B;
+}
+.wrapper .container .sider-container.sider-collapsed {
+  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
+  flex: 0 0 60px;
+}
+.wrapper .container .sider-container.sider-collapsed .menu-name {
+  display: none;
+}
+.wrapper .container .sider-container.sider-collapsed .ant-menu-inline-collapsed {
+  width: 60px;
+}
+.wrapper .container .sider-container.sider-collapsed .ant-menu-item {
+  padding: 13px 18px!important;
+}
+.wrapper .container .sider-container.sider-collapsed .ant-menu-submenu-title {
+  padding: 13px 18px!important;
+}
+.wrapper .container .content-container {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  background: #f5f7f9;
+}
+.wrapper .container .content-container .page-content {
+  flex: auto;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+.wrapper .container .content-container .page-content .content-wrapper {
+  font-size: 12px;
+  background-color: #f1f2f6;
+  margin: 0;
+  padding: 10px 0 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #293144;
+}
+.wrapper .container .content-container .page-content .footer {
+  padding: 10px 0 20px;
+  text-align: center;
+  background: #f1f2f6;
+}
+.wrapper .container .content-container .page-content::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+.wrapper .container .content-container .page-content::-webkit-scrollbar-thumb {
+  border-radius: 2.5px;
+  background: rgba(102, 106, 112, 0.3);
+}
+.wrapper .container .content-container .page-content::-webkit-scrollbar-track {
+  background-color: #e6e6e6;
+  opacity: .3;
+}

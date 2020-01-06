@@ -1,0 +1,175 @@
+.header-bar {
+  padding: 0;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #dcdee2;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.header-bar .left-nav {
+  margin: 0;
+  padding: 0;
+}
+.header-bar .left-nav .icon {
+  font-size: 22px;
+  margin: 18px 20px;
+  display: inline-block;
+  line-height: 1;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.header-bar .left-nav .ant-breadcrumb {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-bar .right-nav {
+  display: block;
+  height: 100%;
+  line-height: 60px;
+  margin: 0;
+  padding: 0;
+  color: #515a6e;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+}
+.header-bar .right-nav li {
+  float: left;
+  padding: 0 20px;
+}
+.header-bar .right-nav li:first-of-type::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background-color: #515a6e;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  right: -9px;
+}
+.header-bar .right-nav .userinfo {
+  cursor: pointer;
+}
+.header-bar .right-nav .userinfo img {
+  width: 25px;
+  margin-right: 10px;
+}
+.header-bar .right-nav .userinfo a {
+  color: #808695;
+  font-size: 12px;
+}
+.header-bar .right-nav .loginout {
+  padding-left: 0;
+}
+.header-bar .right-nav .loginout a {
+  color: #808695;
+  font-size: 12px;
+}
+.user-info-menu .ant-dropdown-menu-item {
+  font-size: 12px;
+}
+.user-info-menu .icon {
+  margin-right: 5px;
+}
+.user-info-menu .icon-td-yonghu1 {
+  font-size: 14px;
+}
+.user-info-menu .icon-td-xiaoxi1 {
+  font-size: 16px;
+  margin-right: 3px;
+  margin-left: -1px;
+}
+.user-info-menu .anticon-logout {
+  margin-left: 1px;
+}
+.user-info-menu .ant-dropdown-menu-item:hover {
+  background: #e8e8e8;
+}
+.user-info-menu .ant-badge-multiple-words {
+  padding: 0 3px;
+}
+.user-info-menu .ant-badge-count {
+  font-size: 10px;
+  border-radius: 15px;
+}
+#navbar {
+  background-color: #233344;
+  padding: 0 16px;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#navbar #navbar-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#navbar #navbar-container .row {
+  width: 100%;
+}
+#navbar #navbar-container .brand-title {
+  display: inline-block;
+  line-height: 60px;
+  float: left;
+}
+#navbar #navbar-container .brand-title .brand-text {
+  display: block;
+  font-size: 18px;
+  font-family: 'PingFangSC-Regular';
+  letter-spacing: 4px;
+  text-align: left;
+  color: #fff;
+  transition-property: all;
+  transition-duration: 0.6s;
+}
+#navbar #navbar-container .brand-title .logo {
+  display: inline-block;
+  color: #fff;
+  width: 40px;
+  height: 41px;
+  background: url(../../assets/images/logo.png) no-repeat 0 0;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+#navbar #navbar-container .row .col {
+  text-align: right;
+  white-space: nowrap;
+}
+#navbar #navbar-container ul {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 60px;
+}
+#navbar #navbar-container ul li {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+#navbar #navbar-container ul li img {
+  width: 25px;
+}
+#navbar #navbar-container ul li a {
+  color: #fff;
+  padding: 0 14px;
+  display: inline-block;
+  transition-property: all;
+  transition-duration: 0.6s;
+  font-size: 14px;
+}
+#navbar #navbar-container ul li:first-of-type::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
